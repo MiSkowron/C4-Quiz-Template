@@ -1,0 +1,71 @@
+header {
+    background-color: darkblue;
+    color: wheat;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+
+button {
+width: 300px;
+background-color: wheat;
+color: darkblue;
+font-family: monospace;
+font-size: 30px;
+font-weight: bolder;
+border-radius: 15%;
+margin-left: 100px;
+cursor: pointer;
+}
+
+subheader {
+    background-color: wheat;
+    color: darkblue;
+    text-align: center;
+    border: 10px solid darkblue;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+subheader w {
+    font-weight: bolder;
+}
+
+main {
+    padding: 10px;
+}
+
+#info {
+    text-align: center;
+}
+
+#infoRight {
+    text-align: center;
+    background-color: green;
+}
+
+#infoWrong {
+    text-align: center;
+    background-color: red;
+}
+
+#Question {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+} 
+
+#a1, #a2, #a3, #a4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin-left: 190px;
+    cursor: pointer;
+    /* border: 1px solid darkblue; */
+    background-color: wheat;
+    width: 600px;
+}
